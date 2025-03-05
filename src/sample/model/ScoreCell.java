@@ -1,10 +1,10 @@
 package sample.model;
 
-public class ScoreCell extends sample.model.GameCell {
+public class ScoreCell extends GameCell {
     private int points;
 
     public ScoreCell(int points){
-        super("..");
+        super("00");
         this.points=points;
     }
     public int getPoints(){

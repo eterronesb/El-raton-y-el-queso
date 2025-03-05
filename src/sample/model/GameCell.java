@@ -19,6 +19,6 @@ public abstract class GameCell {
 
     @Override
     public String toString() {
-        return isDiscovered ? content : "00";
+        return content;
     }
 }
